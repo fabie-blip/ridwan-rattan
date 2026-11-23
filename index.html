@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ridwan Rattan Craft Cirebon - Premium Rattan Craft Exports</title>
+  <meta name="description" content="Publication media and export estimation calculator for Pak Ridwan's premium rattan products from Tegalwangi, Cirebon. Featuring availability status, variant details, price calculator, shipping rates, and estimated arrival times.">
+  <meta name="author" content="Grade X PPLG Student - PSAS Web Development Project">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3.3 CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons (CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS (Relative Path) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100">
+
+  <!-- ========================================================================
+       1. NAVIGATION BAR
+       ======================================================================== -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-custom sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#beranda">
+        <img src="Code_Generated_Image.png" alt="Ridwan Rattan Cirebon Logo" height="46">
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#beranda">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profil">Business Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#katalog">Catalog &amp; Variants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kalkulator">Export Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a href="#kalkulator" class="btn btn-rattan btn-sm">
+              <i class="bi bi-calculator me-1"></i> Estimate Cost
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       2. HERO SECTION
+       ======================================================================== -->
+  <header id="beranda" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="hero-tag">
+            <i class="bi bi-geo-alt-fill text-rattan"></i> Tegalwangi, Cirebon &bull; Indonesian Rattan Hub
+          </div>
+          <h1 class="hero-title">
+            Bringing <span class="text-rattan">Cirebon Rattan</span> Masterpieces to Global Export Markets
+          </h1>
+          <p class="hero-description">
+            Welcome to the official site of <strong>CV Ridwan Mandiri Rattan</strong>. We manufacture and export international-grade natural rattan furniture straight from skilled artisans in Cirebon. Check stock availability, product variants, and calculate shipping estimates interactively.
+          </p>
+
+          <ul class="hero-features-list">
+            <li><i class="bi bi-check-circle-fill"></i> 100% Selected Natural Rattan (Kubu Grey, Manau &amp; Jawit)</li>
+            <li><i class="bi bi-check-circle-fill"></i> Complete Export Legalities: SVLK / V-Legal &amp; ISPM 15 Fumigation</li>
+            <li><i class="bi bi-check-circle-fill"></i> Global Container Shipping (Europe, Americas, Asia &amp; Oceania)</li>
+          </ul>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#kalkulator" class="btn btn-rattan px-4 py-2">
+              <i class="bi bi-calculator-fill me-1"></i> Simulate Export Order
+            </a>
+            <a href="#katalog" class="btn btn-outline-rattan px-4 py-2">
+              <i class="bi bi-grid-fill me-1"></i> View Product Catalog
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="hero-image-wrap">
+            <img src="foto1.jpg" alt="Handcrafted Cirebon Natural Rattan Lounge Chair and Wall Decor" class="img-fluid hero-photo" width="700" height="500">
+          </div>
+        </div>
+
+      <!-- Quick Stats Highlight Bar -->
+      <div class="stats-bar">
+        <div class="row g-4 align-items-center">
+          <div class="col-6 col-md-3 stat-item stat-divider">
+            <div class="stat-number">18+</div>
+            <p class="stat-label">Export Destination Countries</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item stat-divider-desktop">
+            <div class="stat-number">100%</div>
+            <p class="stat-label">Sustainable Natural Rattan</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item stat-divider">
+            <div class="stat-number">ISPM-15</div>
+            <p class="stat-label">Export-Grade Fumigation</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <div class="stat-number">16+ Yrs</div>
+            <p class="stat-label">Pak Ridwan's Experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       3. BUSINESS PROFILE & ADVANTAGES (BUSINESS PUBLICATION)
+       ======================================================================== -->
+  <section id="profil" class="about-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-subtitle">Get to Know Us Better</span>
+        <h2 class="section-title">Pak Ridwan's Rattan Craft Dedication in Cirebon</h2>
+        <p class="text-muted col-lg-8 mx-auto mt-2">
+          From our workshop in Tegalwangi, Cirebon, we preserve ancestral weaving heritage by combining contemporary modern design with world export quality standards.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <div class="story-card">
+            <h3 class="fw-bold mb-3 text-forest">Our Story &amp; Business Philosophy</h3>
+            <p class="text-muted">
+              Founded by <strong>Pak Ridwan Hidayat</strong> in 2008, our business began with a commitment to the abundant supply of Indonesia's finest rattan and the craftsmanship of local artisans in Cirebon. Today, Cirebon is recognized as a global rattan craft hub, contributing over 70% of Indonesia's furniture exports.
+            </p>
+            <p class="text-muted">
+              Pak Ridwan is dedicated to delivering furniture and homeware that are not only aesthetically refined, but also eco-friendly, durable for decades, and free from wood pests through kiln-dry seasoning and international-standard fumigation.
+            </p>
+
+            <div class="p-3 bg-sand-alt rounded-3 border mt-4">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-shield-check text-rattan fs-2"></i>
+                <div>
+                  <h6 class="mb-0 fw-bold">Official Certifications &amp; Export Licenses</h6>
+                  <small class="text-muted">NIB / V-Legal SVLK: 9120003481928-V-LEGAL &bull; Cirebon Agricultural Quarantine</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="p-2">
+            <img src="foto2.jpg" alt="Tegalwangi Cirebon Rattan Craft Workshop" class="img-fluid rounded-4 shadow-sm mb-4" width="600" height="450">
+
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="feature-pill p-3 bg-white border rounded-3 shadow-sm h-100">
+                  <div class="feature-pill-icon">
+                    <i class="bi bi-flower1"></i>
+                  </div>
+                  <div>
+                    <h6 class="fw-bold mb-1">Natural Indonesian Rattan</h6>
+                    <small class="text-muted">Sustainably harvested from Kalimantan &amp; Sulawesi forests.</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-pill p-3 bg-white border rounded-3 shadow-sm h-100">
+                  <div class="feature-pill-icon">
+                    <i class="bi bi-box-seam"></i>
+                  </div>
+                  <div>
+                    <h6 class="fw-bold mb-1">3-Layer Export Packaging</h6>
+                    <small class="text-muted">Foam sheet, heavy-duty carton, and moisture-resistant woven bag.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       4. PRODUCT CATALOG, AVAILABILITY STATUS & VARIANTS
+       ======================================================================== -->
+  <section id="katalog" class="catalog-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-subtitle">Featured Export Collection</span>
+        <h2 class="section-title">Product Catalog &amp; Availability Status</h2>
+        <p class="text-muted col-lg-8 mx-auto mt-2">
+          Browse rattan products for prospective clients. Each item includes availability status (Ready Stock / Limited / Pre-Order) as well as finishing or size variant options.
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="filter-btn-group d-flex flex-wrap justify-content-center gap-2 mt-4" id="categoryFilterContainer">
+          <button type="button" class="btn active filter-btn" data-filter="all">All Categories</button>
+          <button type="button" class="btn filter-btn" data-filter="furniture">Chairs &amp; Furniture</button>
+          <button type="button" class="btn filter-btn" data-filter="lighting">Lighting &amp; Decor</button>
+          <button type="button" class="btn filter-btn" data-filter="storage">Baskets &amp; Storage</button>
+        </div>
+      </div>
+
+      <!-- Product Cards Grid (Rendered dynamically via JavaScript) -->
+      <div class="row g-4" id="productGridContainer">
+        <div class="col-12 text-center py-5">
+          <div class="spinner-border text-rattan" role="status">
+            <span class="visually-hidden">Loading product data...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       5. TOTAL PRICE, SHIPPING & ESTIMATED ARRIVAL CALCULATOR (CORE FEATURE)
+       ======================================================================== -->
+  <section id="kalkulator" class="calculator-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-subtitle">Order Transparency for Clients</span>
+        <h2 class="section-title">Export Order &amp; Estimation Calculator</h2>
+        <p class="text-muted col-lg-8 mx-auto mt-2">
+          Answer client inquiries in seconds: choose a product variant, quantity, export destination country, and shipping method to calculate total estimated costs and arrival dates.
+        </p>
+      </div>
+
+      <div class="calc-card">
+        <!-- Header -->
+        <div class="calc-header d-flex flex-wrap justify-content-between align-items-center gap-3">
+          <div>
+            <h3><i class="bi bi-sliders me-2"></i> Interactive Export Order Simulator</h3>
+            <p>Real-time JavaScript-powered calculation for international buyers and domestic clients.</p>
+          </div>
+          <div>
+            <span class="badge bg-light text-dark px-3 py-2 fw-bold">
+              <i class="bi bi-clock-history me-1"></i> Live Calculation
+            </span>
+          </div>
+        </div>
+
+        <!-- Form Body & Live Summary Panel -->
+        <div class="calc-body">
+          <div class="row g-4">
+
+            <!-- FORM INPUTS (LEFT COLUMN) -->
+            <div class="col-lg-7">
+              <form id="exportOrderForm" novalidate>
+
+                <!-- STEP 1: SELECT PRODUCT -->
+                <div class="mb-4">
+                  <label for="calcProductSelect" class="form-label-custom calc-step-label">
+                    <span class="calc-step-number">1</span> Select Rattan Product
+                  </label>
+                  <select id="calcProductSelect" class="form-select form-select-custom">
+                    <!-- Product options populated dynamically from data.js -->
+                  </select>
+                </div>
+
+                <!-- STEP 2: SELECT PRODUCT VARIANT -->
+                <div class="mb-4">
+                  <label for="calcVariantSelect" class="form-label-custom calc-step-label">
+                    <span class="calc-step-number">2</span> Select Variant (Finishing / Size)
+                  </label>
+                  <select id="calcVariantSelect" class="form-select form-select-custom">
+                    <!-- Variant options updated dynamically based on selected product -->
+                  </select>
+                  <div class="form-text mt-1 text-muted" id="calcVariantHint">
+                    Select a variant to view price adjustments and specifications.
+                  </div>
+                </div>
+
+                <!-- STEP 3: ORDER QUANTITY -->
+                <div class="mb-4">
+                  <label for="calcQuantityInput" class="form-label-custom calc-step-label">
+                    <span class="calc-step-number">3</span> Quantity (Units)
+                  </label>
+                  <div class="input-group qty-input-group">
+                    <button class="btn btn-outline-secondary" type="button" id="btnQtyMinus" aria-label="Decrease quantity">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input type="number" id="calcQuantityInput" class="form-control form-control-custom text-center fw-bold" value="5" min="1" max="500">
+                    <button class="btn btn-outline-secondary" type="button" id="btnQtyPlus" aria-label="Increase quantity">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
+                  </div>
+                  <div class="form-text mt-1 text-muted">
+                    Minimum 1 unit (at least 5 units recommended for LCL consolidated cargo efficiency).
+                  </div>
+                </div>
+
+                <!-- STEP 4: EXPORT SHIPPING DESTINATION -->
+                <div class="mb-4">
+                  <label for="calcDestinationSelect" class="form-label-custom calc-step-label">
+                    <span class="calc-step-number">4</span> Shipping Route / Destination
+                  </label>
+                  <select id="calcDestinationSelect" class="form-select form-select-custom">
+                    <!-- Destinations populated dynamically from data.js -->
+                  </select>
+                </div>
+
+                <!-- STEP 5: SHIPPING METHOD -->
+                <div class="mb-4">
+                  <label class="form-label-custom calc-step-label">
+                    <span class="calc-step-number">5</span> Shipping Method (Freight Method)
+                  </label>
+                  <div class="d-flex flex-column gap-2" id="shippingMethodContainer">
+                    <!-- Radio options for shipping methods rendered by JS -->
+                  </div>
+                </div>
+
+              </form>
+            </div>
+
+            <!-- LIVE SUMMARY OUTPUT (RIGHT COLUMN) -->
+            <div class="col-lg-5">
+              <div class="summary-panel">
+                <div class="summary-title">
+                  <span><i class="bi bi-receipt-cutoff me-1 text-rattan"></i> Simulation Summary</span>
+                  <span id="summaryStockBadge" class="stock-badge-tag badge-ready position-static">Ready Stock</span>
+                </div>
+
+                <!-- Selected Product Details -->
+                <div class="summary-row">
+                  <span class="summary-row-label">Selected Product:</span>
+                  <span class="summary-row-value text-primary" id="summaryProductName">-</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-row-label">Variant:</span>
+                  <span class="summary-row-value text-secondary" id="summaryVariantName">-</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-row-label">Unit Price:</span>
+                  <span class="summary-row-value" id="summaryUnitPrice">$0</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-row-label">Unit Quantity:</span>
+                  <span class="summary-row-value" id="summaryQuantity">0 units</span>
+                </div>
+
+                <div class="summary-divider"></div>
+
+                <!-- Product Subtotal & Export Fees -->
+                <div class="summary-row">
+                  <span class="summary-row-label">Product Subtotal:</span>
+                  <span class="summary-row-value" id="summarySubtotal">$0</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-row-label">Export Destination:</span>
+                  <span class="summary-row-value" id="summaryDestination">-</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-row-label">Freight Method:</span>
+                  <span class="summary-row-value" id="summaryMethod">-</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-row-label">Shipping Cost:</span>
+                  <span class="summary-row-value text-success" id="summaryShippingCost">$0</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-row-label">ISPM-15 / Fumigation Docs:</span>
+                  <span class="summary-row-value text-muted" id="summaryDocFee">$0</span>
+                </div>
+
+                <!-- Total Price Highlight Box -->
+                <div class="summary-total-box mt-3">
+                  <div class="total-usd-label">Total Estimated Cost</div>
+                  <div class="total-usd-val" id="summaryGrandTotalUSD">$0</div>
+                  <div class="total-idr-val" id="summaryGrandTotalIDR">&approx; Rp 0</div>
+                </div>
+
+                <!-- Estimated Arrival Time -->
+                <div class="leadtime-badge-box">
+                  <div class="leadtime-header">
+                    <i class="bi bi-calendar2-check-fill"></i> Estimated Time of Arrival
+                  </div>
+                  <div class="leadtime-content" id="summaryLeadTime">
+                    Loading time estimate...
+                  </div>
+                  <div class="leadtime-subtext" id="summaryArrivalDate">
+                    Estimated arrival: -
+                  </div>
+                </div>
+
+                <!-- CTA Button to Send Order to Pak Ridwan via WhatsApp -->
+                <a href="#" id="btnWhatsAppInquiry" target="_blank" rel="noopener noreferrer" class="btn btn-forest w-100 py-3 fw-bold shadow-sm">
+                  <i class="bi bi-whatsapp me-2 fs-5"></i> Send Order Details to Pak Ridwan
+                </a>
+                <small class="text-center text-muted mt-2 d-block">
+                  <i class="bi bi-shield-check"></i> Message is automatically formatted based on your selection.
+                </small>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       6. FAQ SECTION (FREQUENTLY ASKED QUESTIONS)
+       ======================================================================== -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-subtitle">Export Information Center</span>
+        <h2 class="section-title">Frequently Asked Questions (FAQ)</h2>
+        <p class="text-muted col-lg-8 mx-auto mt-2">
+          Comprehensive answers to common questions from international clients and domestic buyers.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <!-- Bootstrap Accordion Container (Populated by JS) -->
+          <div class="accordion accordion-custom" id="faqAccordion">
+            <!-- FAQ items rendered automatically by js/app.js from data.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       7. CONTACT & BUSINESS LOCATION
+       ======================================================================== -->
+  <section id="kontak" class="contact-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-subtitle">Contact Our Workshop</span>
+        <h2 class="section-title">Export Consultation &amp; Workshop Visits</h2>
+        <p class="text-muted col-lg-8 mx-auto mt-2">
+          Pak Ridwan and the team are ready to assist with resort, hotel, and cafe projects, as well as export container orders.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="contact-info-card">
+            <h4 class="fw-bold mb-4 text-forest">Official Contact Information</h4>
+
+            <div class="contact-meta-item">
+              <div class="contact-meta-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">Cirebon Workshop Address</h6>
+                <p class="text-muted mb-0">
+                  Jl. Nyi Mas Endang Geulis No. 42, Tegalwangi Rattan Industrial Center, Weru District, Cirebon Regency, West Java 45154
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-meta-item">
+              <div class="contact-meta-icon">
+                <i class="bi bi-whatsapp"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">Export WhatsApp / Phone</h6>
+                <p class="text-muted mb-0">
+                  <a href="https://wa.me/6281234567890" class="text-decoration-none text-rattan fw-bold" target="_blank" rel="noopener noreferrer">+62 812-3456-7890 (Pak Ridwan)</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-meta-item">
+              <div class="contact-meta-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">Official Export Email</h6>
+                <p class="text-muted mb-0">export@ridwanrattancirebon.com</p>
+              </div>
+            </div>
+
+            <div class="contact-meta-item mb-0">
+              <div class="contact-meta-icon">
+                <i class="bi bi-clock-fill"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">Operating Hours</h6>
+                <p class="text-muted mb-0">Monday - Saturday: 08.00 - 17.00 WIB (Closed on Sundays &amp; National Holidays)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="map-placeholder-box">
+            <div class="bg-white p-4 rounded-4 shadow-sm w-100 text-start">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="p-3 bg-forest-dark text-white rounded-circle">
+                  <i class="bi bi-pin-map-fill fs-4"></i>
+                </div>
+                <div>
+                  <h5 class="fw-bold mb-0">Tegalwangi Hub Location</h5>
+                  <small class="text-muted">Easy access 15 minutes from Plumbon Cirebon Toll Gate</small>
+                </div>
+              </div>
+              <p class="text-muted small mb-3">
+                Pak Ridwan's workshop welcomes prospective international buyers and freight forwarder representatives to inspect raw materials, weaving, kiln-dry ovens, and container loading.
+              </p>
+              <div class="ratio ratio-16x9 rounded-3 overflow-hidden border">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15849.77491040854!2d108.490715!3d-6.715367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ee2e8fbf62a7b%3A0x6a2c2bf74b09e46a!2sTegalwangi%2C%20Weru%2C%20Cirebon%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Location Map of Tegalwangi Rattan Center, Cirebon"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       8. FOOTER
+       ======================================================================== -->
+  <footer class="footer-main">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="mb-3">
+            <img src="assets/images/logo.svg" alt="Ridwan Rattan Cirebon Logo" height="42" class="bg-white p-1 rounded-2">
+          </div>
+          <p class="small text-white-50">
+            Manufacturer and exporter of authentic Cirebon natural rattan crafts with global quality standards. Serving full containers (FCL), consolidated cargo (LCL), and custom hospitality furniture.
+          </p>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-secondary">SVLK Certified</span>
+            <span class="badge bg-secondary">ISPM 15 Fumigated</span>
+            <span class="badge bg-secondary">V-Legal</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5>Navigation</h5>
+          <ul class="footer-links">
+            <li><a href="#beranda">Home</a></li>
+            <li><a href="#profil">Business Profile</a></li>
+            <li><a href="#katalog">Product Catalog</a></li>
+            <li><a href="#kalkulator">Export Calculator</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <h5>Main Export Routes</h5>
+          <ul class="footer-links">
+            <li><a href="#kalkulator">Singapore (Port of Singapore)</a></li>
+            <li><a href="#kalkulator">Europe (Rotterdam &amp; Hamburg)</a></li>
+            <li><a href="#kalkulator">United States (Los Angeles)</a></li>
+            <li><a href="#kalkulator">Australia (Port of Sydney)</a></li>
+            <li><a href="#kalkulator">Japan (Port of Yokohama)</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>PSAS Project Identity</h5>
+          <div class="p-3 rounded-3 psas-badge-card">
+            <div class="small fw-bold text-white mb-1">End-of-Semester Summative Assessment (PSAS)</div>
+            <div class="small text-white-50 mb-1">Subject: Web Development</div>
+            <div class="small text-white-50 mb-1">Class: X PPLG (Software &amp; Game Engineering)</div>
+            <div class="badge bg-warning text-dark mt-2">100% Front-End &bull; Vanilla JS + Bootstrap</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <div>
+          &copy; 2026 CV Ridwan Mandiri Rattan Cirebon. All rights reserved.
+        </div>
+        <div>
+          Designed for Grade X PPLG Practical Exam &amp; Live Coding.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       9. FLOATING WHATSAPP CTA BUTTON
+       ======================================================================== -->
+  <a href="https://wa.me/6281234567890?text=Hello%20Pak%20Ridwan%2C%20I%20am%20interested%20in%20Cirebon%20export%20rattan%20products." target="_blank" rel="noopener noreferrer" class="floating-wa-btn" aria-label="WhatsApp Consultation">
+    <i class="bi bi-whatsapp"></i>
+    <span>Export Consultation</span>
+  </a>
+
+  <!-- ========================================================================
+       10. SCRIPTS (BOOTSTRAP 5.3 + VANILLA JAVASCRIPT)
+       Ensure script order: Bootstrap -> data.js -> app.js
+       ======================================================================== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# File Sistem Operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File Log & Sementara
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
